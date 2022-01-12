@@ -8,8 +8,8 @@ class DungeonMasterSingletonTest {
 
     @Test
     void sameInstanceForConsequentGetInstanceCalls() {
-        DungeonMasterSingleton dungeonMaster1 = DungeonMasterSingleton.getInstance("John");
-        DungeonMasterSingleton dungeonMaster2 = DungeonMasterSingleton.getInstance("Jim");
+        DungeonMaster dungeonMaster1 = DungeonMaster.getInstance("John");
+        DungeonMaster dungeonMaster2 = DungeonMaster.getInstance("Jim");
 
         assertEquals("John", dungeonMaster1.getName());
         assertEquals("John", dungeonMaster2.getName());

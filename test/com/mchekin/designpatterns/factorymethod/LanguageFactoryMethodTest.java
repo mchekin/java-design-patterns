@@ -1,11 +1,10 @@
 package com.mchekin.designpatterns.factorymethod;
 
-import com.mchekin.designpatterns.prototype.MonsterRegistry;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class LanguageFactoryTest {
+class LanguageFactoryMethodTest {
     @Test
     public void getGreetings() {
         LanguageFactory languageFactory = new LanguageFactory();

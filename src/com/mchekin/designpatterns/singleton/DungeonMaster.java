@@ -1,11 +1,11 @@
 package com.mchekin.designpatterns.singleton;
 
-public class DungeonMasterSingleton {
+public class DungeonMaster {
 
-    private static volatile DungeonMasterSingleton instance = null;
+    private static volatile DungeonMaster instance = null;
     private final String name;
 
-    private DungeonMasterSingleton(String name) {
+    private DungeonMaster(String name) {
         if (instance != null) {
             throw new RuntimeException("Use getInstance() instead");
         }
@@ -13,9 +13,9 @@ public class DungeonMasterSingleton {
         this.name = name;
     }
 
-    public static DungeonMasterSingleton getInstance(String value) {
+    public static DungeonMaster getInstance(String value) {
         if (instance == null) {
-            instance = new DungeonMasterSingleton(value);
+            instance = new DungeonMaster(value);
         }
 
         return instance;
