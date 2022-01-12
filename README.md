@@ -1,2 +1,2 @@
 # Java Design Patterns
-Software Design Patterns in Java
+Object Oriented Design Patterns in Java
