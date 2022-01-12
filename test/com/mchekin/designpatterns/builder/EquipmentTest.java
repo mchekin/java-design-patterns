@@ -16,13 +16,13 @@ class EquipmentTest {
                 .setOffhand("Hoplon shield")
                 .setHip("Xiphos short sword");
 
-        Equipment sut = builder.build();
+        Equipment equipment = builder.build();
 
-        assertEquals("Bronze helmet", sut.getHead());
-        assertEquals("Bronze breastplate", sut.getTorso());
-        assertEquals("Bronze greaves", sut.getLegs());
-        assertEquals("Doru spear", sut.getMainHand());
-        assertEquals("Hoplon shield", sut.getOffhand());
-        assertEquals("Xiphos short sword", sut.getHip());
+        assertEquals("Bronze helmet", equipment.getHead());
+        assertEquals("Bronze breastplate", equipment.getTorso());
+        assertEquals("Bronze greaves", equipment.getLegs());
+        assertEquals("Doru spear", equipment.getMainHand());
+        assertEquals("Hoplon shield", equipment.getOffhand());
+        assertEquals("Xiphos short sword", equipment.getHip());
     }
 }
