@@ -1,4 +1,4 @@
-package com.mchekin.designpatterns.builder;
+package com.mchekin.designpatterns.builder.basic;
 
 public class Equipment {
     private final String head;
