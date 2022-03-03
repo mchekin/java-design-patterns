@@ -1,6 +1,6 @@
-package com.mchekin.designpatterns.builder.evolved;
+package com.mchekin.designpatterns.builder.v2;
 
-import com.mchekin.designpatterns.builder.evolved.parts.*;
+import com.mchekin.designpatterns.builder.v2.parts.*;
 
 public interface Builder {
     Builder setHelmet(Helmet helmet);

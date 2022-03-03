@@ -1,7 +1,7 @@
-package com.mchekin.designpatterns.builder.evolved;
+package com.mchekin.designpatterns.builder.v2;
 
-import com.mchekin.designpatterns.builder.evolved.parts.*;
-import com.mchekin.designpatterns.builder.evolved.products.ArmourDescriptor;
+import com.mchekin.designpatterns.builder.v2.parts.*;
+import com.mchekin.designpatterns.builder.v2.products.ArmourDescriptor;
 
 public class ArmourDescriptorBuilder implements Builder {
 

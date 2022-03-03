@@ -1,4 +1,4 @@
-package com.mchekin.designpatterns.builder.basic;
+package com.mchekin.designpatterns.builder.v1;
 
 import org.junit.jupiter.api.Test;
 
