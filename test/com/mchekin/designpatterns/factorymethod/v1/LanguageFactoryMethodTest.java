@@ -1,4 +1,4 @@
-package com.mchekin.designpatterns.factorymethod;
+package com.mchekin.designpatterns.factorymethod.v1;
 
 import org.junit.jupiter.api.Test;
 

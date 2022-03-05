@@ -1,4 +1,4 @@
-package com.mchekin.designpatterns.factorymethod;
+package com.mchekin.designpatterns.factorymethod.v1;
 
 public class LanguageFactory {
     public Language getLanguage(String language) {
